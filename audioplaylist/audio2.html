@@ -1,0 +1,19 @@
+<head>
+<script src="https://cdn.plyr.io/2.0.13/plyr.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/2.0.13/plyr.css">
+</head>
+
+<body>
+player.source({
+  type:       'audio',
+  title:      'Example title',
+  sources: [{
+    src:      '/path/to/audio.mp3',
+    type:     'audio/mp3'
+  },
+  {
+    src:      '/path/to/audio.ogg',
+    type:     'audio/ogg'
+  }]
+});
+</body>
